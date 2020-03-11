@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(164, 219, 252);
+}
+nav{
+    width:100%;
+    height: 100px;
+    background-color:rgb(119, 169, 243);
+}
+/* fieldset{
+    color:black;
+    text-align: center;
+} */
+.boxname h1{
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    font-family: sans-serif;
+}
+legend{
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(255, 235, 123);
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+.boxbox{
+    /* text-align: center; */
+    /* width: 100%; */
+    padding-left: 500px;
+}
+ 
+/* form{
+    display: table;
+    margin: 0 auto;
+} */
+
+@media screen and (max-width:768px){
+    .boxbox{
+        /* text-align: center; */
+        /* width: 100%; */
+        padding-left: 200px;
+    }
+}
+/* @media screen and (max-width:480px){
+    .boxbox{
+        /* text-align: center; */
+        /* width: 100%; */
+        /* padding-left: 100px;
+    }
+} */ 
+/*จบหน้าแรกแง้ว*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(164, 219, 252);
+}
+nav{
+    width:100%;
+    height: 100px;
+    background-color:rgb(119, 169, 243);
+}
+.boxname2 h1{
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    font-family: sans-serif;
+}
+.boxboxbox{
+    /* text-align: center; */
+    /* width: 100%; */
+    padding-left: 600px;
+    padding-top: 20px;
+}
+@media screen and (max-width:768px){
+    .boxboxbox{
+        /* text-align: center; */
+        /* width: 100%; */
+        padding-left: 200px;
+    }
+}
